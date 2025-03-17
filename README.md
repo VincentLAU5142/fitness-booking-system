@@ -7,6 +7,7 @@ A web application for booking fitness classes, built with React. The app allows 
 ## Getting Started
 
 Follow these instructions to set up and run the application.
+### Run `npm start` in your terminal
 ## API Description
 
 Fetch bookings data#
@@ -47,7 +48,7 @@ To log in, use the following credentials:
 - **Password**: `emilyspass`
 
 Thank you for using our application!
-
+## About the npm command
 ### `npm start`
 
 Runs the app in the development mode.\
