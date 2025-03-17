@@ -4,7 +4,9 @@ export const bookingService = {
   // Fetch all classes
   async getClasses(): Promise<Class[]> {
     try {
-      const response = await fetch("/data/classes.json"); // Use relative path
+      const response = await fetch(
+        `${process.env.PUBLIC_URL}/data/classes.json`
+      ); // Use relative path
       if (!response.ok) throw new Error("Failed to fetch classes");
       return response.json();
     } catch (error) {
@@ -17,8 +19,8 @@ export const bookingService = {
   async getUserBookings(userId: number): Promise<Booking[]> {
     try {
       const [bookingsResponse, classesResponse] = await Promise.all([
-        fetch("/data/bookings.json"), // Use relative path
-        fetch("/data/classes.json"), // Use relative path
+        fetch(`${process.env.PUBLIC_URL}/data/bookings.json`), // Use relative path
+        fetch(`${process.env.PUBLIC_URL}/data/classes.json`), // Use relative path
       ]);
 
       if (!bookingsResponse.ok || !classesResponse.ok) {
