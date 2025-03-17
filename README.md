@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Introduction(Project overview and features)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+A web application for booking fitness classes, built with React. The app allows users to view available classes, book them, and manage their bookings through a user-friendly interface.
+
+## Getting Started
+
+Follow these instructions to set up and run the application.
+
+## Usage guide(Available Scripts for run the code)
 
 In the project directory, you can run:
 
@@ -39,11 +45,48 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Learn More & Installation instructions (About the project process and detail)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The zip folder is ready, However,to know the progress of the project or if you have miss the dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation Instructions
+
+### Step 1: Initialize Your Project
+
+First, create your React project using
+`create-react-app`
+`npx create-react-app fitness-class-booking`
+`cd fitness-class-booking`
+
+### Step 2: Install Dependencies
+
+Next, install all the necessary dependencies listed in your `package.json`:
+
+`npm install @testing-library/dom @testing-library/user-event @types/node @types/react @types/react-dom depcheck framer-motion react react-dom react-scripts rimraf rollup-plugin-terser typescript web-vitals`
+
+### Step 3: Install Development Dependencies
+
+Then, install the development dependencies:
+
+`npm install --save-dev @testing-library/jest-dom @testing-library/react @types/jest @types/react-router-dom eslint eslint-config-react-app jest react-router-dom ts-jest`
+
+### Step 4: Configure TypeScript
+
+If you haven't already, add a `tsconfig.json` file to configure TypeScript:
+
+## API Description
+
+Fetch bookings data#
+The `Class data` are use `mock Json` in this project path:`public/data`
+The `Login Auth`
+using the``https://dummyjson.com/auth`
+##API document: `https://dummyjson.com/docs/auth`
+
+### Explain why use the `username` instead of the email (As the task requirement)
+
+The 400 (Bad Request) error typically indicates that the server could not understand the request due to invalid syntax. Based on the DummyJSON documentation, it looks like the login endpoint expects the username field instead of email.
+
+## Find out more in React:
 
 ### Code Splitting
 
