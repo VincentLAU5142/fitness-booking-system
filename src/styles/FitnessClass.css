@@ -1,0 +1,116 @@
+.fitness-class-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.fitness-class-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+}
+
+.fitness-class-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fitness-class-card .class-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  z-index: 1;
+}
+
+.fitness-class-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.fitness-class-card .class-info {
+  position: relative;
+  z-index: 2;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  flex-grow: 1;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.fitness-class-card h2 {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.fitness-class-card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.fitness-class-card .enroll-button {
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.fitness-class-card .enroll-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.fitness-class-card .enroll-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .fitness-class-list {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 1rem;
+  }
+
+  .fitness-class-card {
+    width: 100%;
+  }
+
+  .fitness-class-card .class-image {
+    height: 50px;
+  }
+
+  .fitness-class-card .class-info {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fitness-class-list {
+    grid-template-columns: 1fr;
+  }
+
+  .fitness-class-card {
+    width: 100%;
+  }
+}

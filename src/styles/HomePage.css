@@ -1,0 +1,101 @@
+.home-page {
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  margin-bottom: 5rem;
+  padding-top: 60px;
+}
+
+.heading {
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 30px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 13vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.heading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  z-index: 0;
+}
+
+.heading h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.heading p {
+  font-size: 1.2em;
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-page {
+    padding-top: 0; /* Remove padding on mobile */
+  }
+
+  .heading {
+    height: auto; /* Allow height to adjust on mobile */
+    padding: 20px 10px; /* Adjusted padding */
+  }
+
+  .heading h1 {
+    font-size: 2em; /* Adjusted font size */
+  }
+
+  .heading p {
+    font-size: 1em; /* Adjusted font size */
+  }
+
+  .fitness-class-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fitness-class-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    padding: 10px 5px; /* Adjusted padding */
+  }
+
+  .heading h1 {
+    font-size: 1.5em; /* Adjusted font size */
+  }
+
+  .heading p {
+    font-size: 0.9em; /* Adjusted font size */
+  }
+
+  .fitness-class-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fitness-class-card {
+    width: 90%;
+  }
+}
