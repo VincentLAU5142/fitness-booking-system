@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://vincentlau5142.github.io/fitness-booking-system/static/css/main.e3ea902e.css",
-    "main.js": "https://vincentlau5142.github.io/fitness-booking-system/static/js/main.57d719a8.js",
+    "main.js": "https://vincentlau5142.github.io/fitness-booking-system/static/js/main.9a09beca.js",
     "static/js/488.be60ea95.chunk.js": "https://vincentlau5142.github.io/fitness-booking-system/static/js/488.be60ea95.chunk.js",
     "index.html": "https://vincentlau5142.github.io/fitness-booking-system/index.html",
     "main.e3ea902e.css.map": "https://vincentlau5142.github.io/fitness-booking-system/static/css/main.e3ea902e.css.map",
-    "main.57d719a8.js.map": "https://vincentlau5142.github.io/fitness-booking-system/static/js/main.57d719a8.js.map",
+    "main.9a09beca.js.map": "https://vincentlau5142.github.io/fitness-booking-system/static/js/main.9a09beca.js.map",
     "488.be60ea95.chunk.js.map": "https://vincentlau5142.github.io/fitness-booking-system/static/js/488.be60ea95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3ea902e.css",
-    "static/js/main.57d719a8.js"
+    "static/js/main.9a09beca.js"
   ]
 }
