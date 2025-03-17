@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "classId": 2,
+    "bookingDate": "2025-03-06T08:30:00Z",
+    "status": "Confirmed"
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "classId": 1,
+    "bookingDate": "2025-03-07T07:00:00Z",
+    "status": "Confirmed"
+  },
+  {
+    "id": 3,
+    "userId": 1,
+    "classId": 3,
+    "bookingDate": "2025-03-08T11:00:00Z",
+    "status": "Confirmed"
+  },
+  {
+    "id":4 ,
+    "userId": 1,
+    "classId": 4,
+    "bookingDate": "2025-03-09T08:30:00Z",
+    "status": "Confirmed"
+  },
+  {
+    "id": 5,
+    "userId": 1,
+    "classId": 5,
+    "bookingDate": "2025-03-10T07:00:00Z",
+    "status": "Confirmed"
+  },
+  {
+    "id": 6,
+    "userId": 1,
+    "classId": 6,
+    "bookingDate": "2025-03-10T11:00:00Z",
+    "status": "Confirmed"
+  }
+]

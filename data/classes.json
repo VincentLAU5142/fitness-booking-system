@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Power Yoga",
+    "time": "07:00 AM - 08:00 AM",
+    "instructor": "John Smith",
+    "capacity": 20,
+    "enrolled": 15,
+    "enrolledCount":5,
+    "description": "High-intensity yoga focusing on strength and flexibility",
+    "image": "https://m.media-amazon.com/images/I/71amiXqVhLL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cardio Kickboxing",
+    "time": "09:00 AM - 10:00 AM",
+    "instructor": "Sarah Johnson",
+    "capacity": 25,
+    "enrolled": 20,
+    "enrolledCount":5,
+    "description": "High-energy kickboxing class combining cardio and strength",
+    "image": "https://images.squarespace-cdn.com/content/v1/6480bc47f5e630452425bf08/1dcd6c71-ff43-4532-b80d-654d541bf73a/Attimi-GracewaySports-165.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pilates",
+    "time": "11:00 AM - 12:00 PM",
+    "instructor": "Emily Davis",
+    "capacity": 15,
+    "enrolled": 10,
+    "enrolledCount":5,
+    "description": "Core-strengthening and flexibility exercises",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/reformer-pilates-66f567e60ed64.jpg"
+  },
+  {
+    "id": 4,
+    "name": "HIIT",
+    "time": "01:00 PM - 02:00 PM",
+    "instructor": "Michael Brown",
+    "capacity": 30,
+    "enrolled": 25,
+    "enrolledCount":5,
+    "description": "High-Intensity Interval Training for maximum calorie burn",
+    "image": "https://www.don1don.com/wp-content/uploads/2021/06/HIIT.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dance Fitness",
+    "time": "03:00 PM - 04:00 PM",
+    "instructor": "Laura Wilson",
+    "capacity": 20,
+    "enrolled": 18,
+    "enrolledCount":2,
+    "description": "Fun and energetic dance workout to popular music",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW0wDdES5E0xYwL6EwY84TALE-4V9v2CJ3xw&s"
+  },
+  {
+    "id": 6,
+    "name": "Strength Training",
+    "time": "05:00 PM - 06:00 PM",
+    "instructor": "David Lee",
+    "capacity": 15,
+    "enrolled": 12,
+    "enrolledCount":3,
+    "description": "Build muscle and strength with weight training exercises",
+    "image": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2022/04/male-lifting-weight-1296x728-header.jpg?w=1155&h=1528"
+  }
+]
