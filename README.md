@@ -14,7 +14,7 @@ Fetch bookings data#
 The `Class data` are use `mock Json` in this project path:`public/data`
 The `Login Auth`
 using the``https://dummyjson.com/auth`
-## API document: `https://dummyjson.com/docs/auth`
+### API document: `https://dummyjson.com/docs/auth`
 
 ### Explain why use the `username` instead of the email (As the task requirement)
 
