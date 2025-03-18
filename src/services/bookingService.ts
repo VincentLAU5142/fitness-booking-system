@@ -1,11 +1,11 @@
-import { Class, Booking } from "../components/types/index";
+import { Class, Booking } from "../components/types";
 
 export const bookingService = {
   // Fetch all classes
   async getClasses(): Promise<Class[]> {
     try {
       const response = await fetch("/data/classes.json"); // Use relative path
-      if (!response.ok) throw new Error("Failed to fetch classes");
+      if (!response.ok) console.error("Failed to fetch classes");
       return response.json();
     } catch (error) {
       console.error("Error fetching classes:", error);
@@ -22,7 +22,7 @@ export const bookingService = {
       ]);
 
       if (!bookingsResponse.ok || !classesResponse.ok) {
-        throw new Error("Failed to fetch bookings data");
+        console.error("Failed to fetch bookings data");
       }
 
       const bookings: Booking[] = await bookingsResponse.json();

@@ -5,17 +5,18 @@ export const authService = {
     try {
       const response = await fetch(`${API_URL}/auth/login`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ username, password }),
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({username, password}),
       });
 
       if (!response.ok) {
-        throw new Error("Login failed");
+        console.error("Login failed");
+        return null; // or handle the error in another way
       }
 
-      const data = await response.json();
-      return data;
+      return await response.json();
     } catch (error) {
+      console.error("An error occurred:", error);
       throw error;
     }
   },
@@ -29,7 +30,8 @@ export const authService = {
       });
 
       if (!response.ok) {
-        throw new Error("Failed to get user data");
+        console.error("Failed to get user data");
+        return null;
       }
 
       return await response.json();

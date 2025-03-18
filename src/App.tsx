@@ -20,11 +20,12 @@ function App() {
       setLoading(false);
     };
 
-    fetchData();
+    fetchData().then(() => {
+    })
   }, []);
 
   if (loading) {
-    return <Loading message="Loading application..." />; // Use the Loading component
+    return <Loading message="Loading application..." />;
   }
 
   return (
