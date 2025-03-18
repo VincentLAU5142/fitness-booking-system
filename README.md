@@ -7,13 +7,16 @@ A web application for booking fitness classes, built with React. The app allows 
 ## Getting Started
 
 Follow these instructions to set up and run the application.
+
 ### Run `npm start` in your terminal
+
 ## API Description
 
 Fetch bookings data#
 The `Class data` are use `mock Json` in this project path:`public/data`
 The `Login Auth`
-using the``https://dummyjson.com/auth`. API document: `https://dummyjson.com/docs/auth`
+using the`https://dummyjson.com/auth`.
+API document: `https://dummyjson.com/docs/auth`
 
 ### Explain why use the `username` instead of the email (As the task requirement)
 
@@ -22,20 +25,22 @@ The 400 (Bad Request) error typically indicates that the server could not unders
 ## Usage guide(Available Scripts for run the code)
 
 In the project directory, you can run:
+
 ## User Instructions
 
 Welcome to our fitness class booking system! Here are some instructions to help you navigate the website:
 
-- **Home Page**: 
+- **Home Page**:
   - When you are not logged in, the home page displays the `Book Now` button in a disabled state.
-  
-- **User Dashboard**: 
+- **User Dashboard**:
+
   - After logging in, you will be redirected to your user dashboard, where you can see your booked classes.
 
-- **Navigation**: 
+- **Navigation**:
+
   - Clicking the icon of our website will redirect you back to the home page. Once logged in, you can now click the `Book Now` button to select classes.
 
-- **Note**: 
+- **Note**:
   - Please keep in mind that this is a front-end project and does not currently support actual booking functionality. However, you can log out whenever you wish.
 
 ### Login Credentials
@@ -47,7 +52,9 @@ To log in, use the following credentials:
 - **Password**: `emilyspass`
 
 Thank you for using our application!
+
 ## About the npm command
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -109,7 +116,6 @@ Then, install the development dependencies:
 ### Step 4: Configure TypeScript
 
 If you haven't already, add a `tsconfig.json` file to configure TypeScript:
-
 
 ## Find out more in React:
 
