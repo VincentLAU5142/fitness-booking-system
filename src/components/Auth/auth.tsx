@@ -15,7 +15,7 @@ export const loginUser = async (username: string, password: string) => {
     const data = await response.json();
 
     if (!response.ok) {
-      throw new Error(data.message || "Login failed");
+      console.error(data.message || "Login failed");
     }
 
     return data;
@@ -35,7 +35,7 @@ export const getCurrentUser = async (token: string) => {
     });
 
     if (!response.ok) {
-      throw new Error("Failed to get user data");
+      console.error("Failed to get user data");
     }
 
     return await response.json();
